@@ -1,5 +1,5 @@
 function callBackend() {
-    fetch("https://hello-deploy-backend.onrender.com/")
+    fetch("https://random-grnv.onrender.com")
         .then(res => res.json())
         .then(data => {
             document.getElementById("response").innerText = data.message;
